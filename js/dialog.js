@@ -2,7 +2,7 @@
 $M.lockList = [];
 $M.dialogResult = { "cancel": 0, "ok": 1 };
 $M.lock = function (obj, flag, C, mark) {
-    if (flag) {
+    if (flag) { 
         //var dom = obj.before("<div class='modal-backdrop fade in' style=' z-index:" + ($M.zIndex++) + "'>11</div>");
         //alert(dom)
         var dom = null;
